@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="skillsTracking:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>skillsTracking</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="skillsTracking-1.war">
+      <element id="artifact" artifact-name="skillsTracking:war exploded" />
+    </root>
+  </artifact>
+</component>
